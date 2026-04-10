@@ -12,3 +12,4 @@ jobs:
       - uses: swenyai/sweny@v4
         with:
           claude-oauth-token: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
+          observability-provider: none
